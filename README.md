@@ -1,5 +1,3 @@
-废话少说，先上链接 [GitHub](https://github.com/mumuwanglin/YYRightScrollBar)
-
 # 背景
     系统自带的滚动导航条有点不符合我们的预期要求，所以写了自定义的右侧快速滑块。
 
