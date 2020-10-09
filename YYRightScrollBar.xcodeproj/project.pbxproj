@@ -3,19 +3,22 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843932F22511C2E30000DF40 /* YYScrollBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843932F12511C2E30000DF40 /* YYScrollBar.swift */; };
 		846D16A62508BB6B004F23A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D16A52508BB6B004F23A8 /* AppDelegate.swift */; };
 		846D16A82508BB6B004F23A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D16A72508BB6B004F23A8 /* SceneDelegate.swift */; };
 		846D16AA2508BB6B004F23A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846D16A92508BB6B004F23A8 /* ViewController.swift */; };
 		846D16AD2508BB6B004F23A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846D16AB2508BB6B004F23A8 /* Main.storyboard */; };
 		846D16AF2508BB6D004F23A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846D16AE2508BB6D004F23A8 /* Assets.xcassets */; };
 		846D16B22508BB6D004F23A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846D16B02508BB6D004F23A8 /* LaunchScreen.storyboard */; };
+		F4EF500F5C8697DBBAD63AA9 /* Pods_YYRightScrollBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88863E005CBF5164955B0620 /* Pods_YYRightScrollBar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		843932F12511C2E30000DF40 /* YYScrollBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YYScrollBar.swift; sourceTree = "<group>"; };
 		846D16A22508BB6B004F23A8 /* YYRightScrollBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYRightScrollBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846D16A52508BB6B004F23A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		846D16A72508BB6B004F23A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,9 @@
 		846D16AE2508BB6D004F23A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846D16B12508BB6D004F23A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		846D16B32508BB6D004F23A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88863E005CBF5164955B0620 /* Pods_YYRightScrollBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYRightScrollBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE7461D11FA0EEB399AADF86 /* Pods-YYRightScrollBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYRightScrollBar.debug.xcconfig"; path = "Target Support Files/Pods-YYRightScrollBar/Pods-YYRightScrollBar.debug.xcconfig"; sourceTree = "<group>"; };
+		F73F3EB989E44941E78FB957 /* Pods-YYRightScrollBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYRightScrollBar.release.xcconfig"; path = "Target Support Files/Pods-YYRightScrollBar/Pods-YYRightScrollBar.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4EF500F5C8697DBBAD63AA9 /* Pods_YYRightScrollBar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		48608FB9BE01877841FDE773 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BE7461D11FA0EEB399AADF86 /* Pods-YYRightScrollBar.debug.xcconfig */,
+				F73F3EB989E44941E78FB957 /* Pods-YYRightScrollBar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		846D16992508BB6B004F23A8 = {
 			isa = PBXGroup;
 			children = (
 				846D16A42508BB6B004F23A8 /* YYRightScrollBar */,
 				846D16A32508BB6B004F23A8 /* Products */,
+				48608FB9BE01877841FDE773 /* Pods */,
+				950F73F715CED28CE006263E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +81,17 @@
 				846D16AE2508BB6D004F23A8 /* Assets.xcassets */,
 				846D16B02508BB6D004F23A8 /* LaunchScreen.storyboard */,
 				846D16B32508BB6D004F23A8 /* Info.plist */,
+				843932F12511C2E30000DF40 /* YYScrollBar.swift */,
 			);
 			path = YYRightScrollBar;
+			sourceTree = "<group>";
+		};
+		950F73F715CED28CE006263E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				88863E005CBF5164955B0620 /* Pods_YYRightScrollBar.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 846D16B62508BB6D004F23A8 /* Build configuration list for PBXNativeTarget "YYRightScrollBar" */;
 			buildPhases = (
+				C9D6F14DAC23956722BC89C9 /* [CP] Check Pods Manifest.lock */,
 				846D169E2508BB6B004F23A8 /* Sources */,
 				846D169F2508BB6B004F23A8 /* Frameworks */,
 				846D16A02508BB6B004F23A8 /* Resources */,
+				DFAD887B6A46B79843768749 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +162,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		C9D6F14DAC23956722BC89C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YYRightScrollBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFAD887B6A46B79843768749 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YYRightScrollBar/Pods-YYRightScrollBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-YYRightScrollBar/Pods-YYRightScrollBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-YYRightScrollBar/Pods-YYRightScrollBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		846D169E2508BB6B004F23A8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -140,6 +211,7 @@
 			files = (
 				846D16AA2508BB6B004F23A8 /* ViewController.swift in Sources */,
 				846D16A62508BB6B004F23A8 /* AppDelegate.swift in Sources */,
+				843932F22511C2E30000DF40 /* YYScrollBar.swift in Sources */,
 				846D16A82508BB6B004F23A8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,7 +288,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +342,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,9 +354,12 @@
 		};
 		846D16B72508BB6D004F23A8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE7461D11FA0EEB399AADF86 /* Pods-YYRightScrollBar.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 857RNDE6PN;
 				INFOPLIST_FILE = YYRightScrollBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -292,6 +367,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mumu.YYRightScrollBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Wildcard_Dev;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,9 +375,12 @@
 		};
 		846D16B82508BB6D004F23A8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F73F3EB989E44941E78FB957 /* Pods-YYRightScrollBar.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 857RNDE6PN;
 				INFOPLIST_FILE = YYRightScrollBar/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -309,6 +388,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mumu.YYRightScrollBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Wildcard_Dev;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
